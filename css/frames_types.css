@@ -1,0 +1,89 @@
+.type-bug .bg-pair { background-image: url(../frames/BG_TYPE_BUG.png); }
+.type-bug .border-pair { background-image: url(../frames/BORDER_TYPE_BUG.png); }
+.type-bug .pokemon-bg { background-image: url(../circle/INNER_BUG.png); }
+.type-bug .pokemon-cicle { background-image: url(../circle/OUTER_BUG.png); }
+
+.type-dark .bg-pair { background-image: url(../frames/BG_TYPE_DARK.png); }
+.type-dark .border-pair { background-image: url(../frames/BORDER_TYPE_DARK.png); }
+.type-dark .pokemon-bg { background-image: url(../circle/INNER_DARK.png); }
+.type-dark .pokemon-cicle { background-image: url(../circle/OUTER_DARK.png); }
+
+.type-dragon .bg-pair { background-image: url(../frames/BG_TYPE_DRAGON.png); }
+.type-dragon .border-pair { background-image: url(../frames/BORDER_TYPE_DRAGON.png); }
+.type-dragon .pokemon-bg { background-image: url(../circle/INNER_DRAGON.png); }
+.type-dragon .pokemon-cicle { background-image: url(../circle/OUTER_DRAGON.png); }
+
+.type-electric .bg-pair { background-image: url(../frames/BG_TYPE_ELECTRIC.png); }
+.type-electric .border-pair { background-image: url(../frames/BORDER_TYPE_ELECTRIC.png); }
+.type-electric .pokemon-bg { background-image: url(../circle/INNER_ELECTRIC.png); }
+.type-electric .pokemon-cicle { background-image: url(../circle/OUTER_ELECTRIC.png); }
+
+.type-fairy .bg-pair { background-image: url(../frames/BG_TYPE_FAIRY.png); }
+.type-fairy .border-pair { background-image: url(../frames/BORDER_TYPE_FAIRY.png); }
+.type-fairy .pokemon-bg { background-image: url(../circle/INNER_FAIRY.png); }
+.type-fairy .pokemon-cicle { background-image: url(../circle/OUTER_FAIRY.png); }
+
+.type-fighting .bg-pair { background-image: url(../frames/BG_TYPE_FIGHTING.png); }
+.type-fighting .border-pair { background-image: url(../frames/BORDER_TYPE_FIGHTING.png); }
+.type-fighting .pokemon-bg { background-image: url(../circle/INNER_FIGHTING.png); }
+.type-fighting .pokemon-cicle { background-image: url(../circle/OUTER_FIGHTING.png); }
+
+.type-fire .bg-pair { background-image: url(../frames/BG_TYPE_FIRE.png); }
+.type-fire .border-pair { background-image: url(../frames/BORDER_TYPE_FIRE.png); }
+.type-fire .pokemon-bg { background-image: url(../circle/INNER_FIRE.png); }
+.type-fire .pokemon-cicle { background-image: url(../circle/OUTER_FIRE.png); }
+
+.type-flying .bg-pair { background-image: url(../frames/BG_TYPE_FLYING.png); }
+.type-flying .border-pair { background-image: url(../frames/BORDER_TYPE_FLYING.png); }
+.type-flying .pokemon-bg { background-image: url(../circle/INNER_FLYING.png); }
+.type-flying .pokemon-cicle { background-image: url(../circle/OUTER_FLYING.png); }
+
+.type-ghost .bg-pair { background-image: url(../frames/BG_TYPE_GHOST.png); }
+.type-ghost .border-pair { background-image: url(../frames/BORDER_TYPE_GHOST.png); }
+.type-ghost .pokemon-bg { background-image: url(../circle/INNER_GHOST.png); }
+.type-ghost .pokemon-cicle { background-image: url(../circle/OUTER_GHOST.png); }
+
+.type-grass .bg-pair { background-image: url(../frames/BG_TYPE_GRASS.png); }
+.type-grass .border-pair { background-image: url(../frames/BORDER_TYPE_GRASS.png); }
+.type-grass .pokemon-bg { background-image: url(../circle/INNER_GRASS.png); }
+.type-grass .pokemon-cicle { background-image: url(../circle/OUTER_GRASS.png); }
+
+.type-ground .bg-pair { background-image: url(../frames/BG_TYPE_GROUND.png); }
+.type-ground .border-pair { background-image: url(../frames/BORDER_TYPE_GROUND.png); }
+.type-ground .pokemon-bg { background-image: url(../circle/INNER_GROUND.png); }
+.type-ground .pokemon-cicle { background-image: url(../circle/OUTER_GROUND.png); }
+
+.type-ice .bg-pair { background-image: url(../frames/BG_TYPE_ICE.png); }
+.type-ice .border-pair { background-image: url(../frames/BORDER_TYPE_ICE.png); }
+.type-ice .pokemon-bg { background-image: url(../circle/INNER_ICE.png); }
+.type-ice .pokemon-cicle { background-image: url(../circle/OUTER_ICE.png); }
+
+.type-normal .bg-pair { background-image: url(../frames/BG_TYPE_NORMAL.png); }
+.type-normal .border-pair { background-image: url(../frames/BORDER_TYPE_NORMAL.png); }
+.type-normal .pokemon-bg { background-image: url(../circle/INNER_NORMAL.png); }
+.type-normal .pokemon-cicle { background-image: url(../circle/OUTER_NORMAL.png); }
+
+.type-poison .bg-pair { background-image: url(../frames/BG_TYPE_POISON.png); }
+.type-poison .border-pair { background-image: url(../frames/BORDER_TYPE_POISON.png); }
+.type-poison .pokemon-bg { background-image: url(../circle/INNER_POISON.png); }
+.type-poison .pokemon-cicle { background-image: url(../circle/OUTER_POISON.png); }
+
+.type-psychic .bg-pair { background-image: url(../frames/BG_TYPE_PSYCHIC.png); }
+.type-psychic .border-pair { background-image: url(../frames/BORDER_TYPE_PSYCHIC.png); }
+.type-psychic .pokemon-bg { background-image: url(../circle/INNER_PSYCHIC.png); }
+.type-psychic .pokemon-cicle { background-image: url(../circle/OUTER_PSYCHIC.png); }
+
+.type-rock .bg-pair { background-image: url(../frames/BG_TYPE_ROCK.png); }
+.type-rock .border-pair { background-image: url(../frames/BORDER_TYPE_ROCK.png); }
+.type-rock .pokemon-bg { background-image: url(../circle/INNER_ROCK.png); }
+.type-rock .pokemon-cicle { background-image: url(../circle/OUTER_ROCK.png); }
+
+.type-steel .bg-pair { background-image: url(../frames/BG_TYPE_STEEL.png); }
+.type-steel .border-pair { background-image: url(../frames/BORDER_TYPE_STEEL.png); }
+.type-steel .pokemon-bg { background-image: url(../circle/INNER_STEEL.png); }
+.type-steel .pokemon-cicle { background-image: url(../circle/OUTER_STEEL.png); }
+
+.type-water .bg-pair { background-image: url(../frames/BG_TYPE_WATER.png); }
+.type-water .border-pair { background-image: url(../frames/BORDER_TYPE_WATER.png); }
+.type-water .pokemon-bg { background-image: url(../circle/INNER_WATER.png); }
+.type-water .pokemon-cicle { background-image: url(../circle/OUTER_WATER.png); }

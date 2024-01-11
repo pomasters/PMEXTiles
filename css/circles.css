@@ -1,0 +1,53 @@
+.type-bug .pokemon-bg { background-image: url(../circles/INNER_BUG.png); }
+.type-bug .pokemon-cicle { background-image: url(../circles/OUTER_BUG.png); }
+
+.type-dark .pokemon-bg { background-image: url(../circles/INNER_DARK.png); }
+.type-dark .pokemon-cicle { background-image: url(../circles/OUTER_DARK.png); }
+
+.type-dragon .pokemon-bg { background-image: url(../circles/INNER_DRAGON.png); }
+.type-dragon .pokemon-cicle { background-image: url(../circles/OUTER_DRAGON.png); }
+
+.type-electric .pokemon-bg { background-image: url(../circles/INNER_ELECTRIC.png); }
+.type-electric .pokemon-cicle { background-image: url(../circles/OUTER_ELECTRIC.png); }
+
+.type-fairy .pokemon-bg { background-image: url(../circles/INNER_FAIRY.png); }
+.type-fairy .pokemon-cicle { background-image: url(../circles/OUTER_FAIRY.png); }
+
+.type-fighting .pokemon-bg { background-image: url(../circles/INNER_FIGHTING.png); }
+.type-fighting .pokemon-cicle { background-image: url(../circles/OUTER_FIGHTING.png); }
+
+.type-fire .pokemon-bg { background-image: url(../circles/INNER_FIRE.png); }
+.type-fire .pokemon-cicle { background-image: url(../circles/OUTER_FIRE.png); }
+
+.type-flying .pokemon-bg { background-image: url(../circles/INNER_FLYING.png); }
+.type-flying .pokemon-cicle { background-image: url(../circles/OUTER_FLYING.png); }
+
+.type-ghost .pokemon-bg { background-image: url(../circles/INNER_GHOST.png); }
+.type-ghost .pokemon-cicle { background-image: url(../circles/OUTER_GHOST.png); }
+
+.type-grass .pokemon-bg { background-image: url(../circles/INNER_GRASS.png); }
+.type-grass .pokemon-cicle { background-image: url(../circles/OUTER_GRASS.png); }
+
+.type-ground .pokemon-bg { background-image: url(../circles/INNER_GROUND.png); }
+.type-ground .pokemon-cicle { background-image: url(../circles/OUTER_GROUND.png); }
+
+.type-ice .pokemon-bg { background-image: url(../circles/INNER_ICE.png); }
+.type-ice .pokemon-cicle { background-image: url(../circles/OUTER_ICE.png); }
+
+.type-normal .pokemon-bg { background-image: url(../circles/INNER_NORMAL.png); }
+.type-normal .pokemon-cicle { background-image: url(../circles/OUTER_NORMAL.png); }
+
+.type-poison .pokemon-bg { background-image: url(../circles/INNER_POISON.png); }
+.type-poison .pokemon-cicle { background-image: url(../circles/OUTER_POISON.png); }
+
+.type-psychic .pokemon-bg { background-image: url(../circles/INNER_PSYCHIC.png); }
+.type-psychic .pokemon-cicle { background-image: url(../circles/OUTER_PSYCHIC.png); }
+
+.type-rock .pokemon-bg { background-image: url(../circles/INNER_ROCK.png); }
+.type-rock .pokemon-cicle { background-image: url(../circles/OUTER_ROCK.png); }
+
+.type-steel .pokemon-bg { background-image: url(../circles/INNER_STEEL.png); }
+.type-steel .pokemon-cicle { background-image: url(../circles/OUTER_STEEL.png); }
+
+.type-water .pokemon-bg { background-image: url(../circles/INNER_WATER.png); }
+.type-water .pokemon-cicle { background-image: url(../circles/OUTER_WATER.png); }

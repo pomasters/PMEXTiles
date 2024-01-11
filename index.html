@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="frames/BORDER_EX.png">
+	<title>...</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/frames_types.css" id="frames_types_css">
+	<link rel="stylesheet" href="css/circles.css">
+</head>
+
+<body style="opacity:0;pointer-events:none">
+	<label class="option" for="file_trainer">Trainer</label>
+	<input accept=".png, .jpg, .jpeg .gif" type="file" id="file_trainer" multiple>
+
+	<label class="option" for="file_pokemon">Pokemon</label>
+	<input accept=".png, .jpg, .jpeg .gif" type="file" id="file_pokemon" multiple>
+
+	<div id="images_imported">
+		<div id="images_trainer_imported"></div>
+		<div id="images_pokemon_imported"></div>
+	</div>
+
+	<div id="options">
+		<select id="types_rarity">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="bronze">3</option>
+			<option value="silver">4</option>
+			<option value="gold">5</option>
+			<option value="1-ex">1 + EX</option>
+			<option value="2-ex">2 + EX</option>
+			<option value="bronze-ex">3 + EX</option>
+			<option value="silver-ex">4 + EX</option>
+			<option selected value="gold-ex">5 + EX</option>
+			<option value="ex">EX</option>
+		  </select>
+
+		  <select id="types_options">
+			  <option value="bug">Bug</option>
+			  <option value="dark">Dark</option>
+			  <option value="dragon">Dragon</option>
+			  <option selected value="electric">Electric</option>
+			  <option value="fairy">Fairy</option>
+			  <option value="fighting">Fighting</option>
+			  <option value="fire">Fire</option>
+			  <option value="flying">Flying</option>
+			  <option value="ghost">Ghost</option>
+			  <option value="grass">Grass</option>
+			  <option value="ground">Ground</option>
+			  <option value="ice">Ice</option>
+			  <option value="normal">Normal</option>
+			  <option value="poison">Poison</option>
+			  <option value="psychic">Psychic</option>
+			  <option value="rock">Rock</option>
+			  <option value="steel">Steel</option>
+			  <option value="water">Water</option>
+		</select>
+
+		<input type="checkbox" id="frames_mode" name="frames_mode" checked>
+		<label for="frames_mode">Type frame</label>
+
+		<input type="checkbox" id="master_skill" name="master_skill">
+		<label for="master_skill">Master Skill</label>
+
+		<select id="move1_type_options">
+			<option value="">--</option>
+			<option value="bug">Bug</option>
+			<option value="dark">Dark</option>
+			<option value="dragon">Dragon</option>
+			<option selected value="electric">Electric</option>
+			<option value="fairy">Fairy</option>
+			<option value="fighting">Fighting</option>
+			<option value="fire">Fire</option>
+			<option value="flying">Flying</option>
+			<option value="ghost">Ghost</option>
+			<option value="grass">Grass</option>
+			<option value="ground">Ground</option>
+			<option value="ice">Ice</option>
+			<option value="normal">Normal</option>
+			<option value="poison">Poison</option>
+			<option value="psychic">Psychic</option>
+			<option value="rock">Rock</option>
+			<option value="steel">Steel</option>
+			<option value="water">Water</option>
+		</select>
+
+		<select id="move2_type_options">
+			<option selected value="">--</option>
+			<option value="bug">Bug</option>
+			<option value="dark">Dark</option>
+			<option value="dragon">Dragon</option>
+			<option value="electric">Electric</option>
+			<option value="fairy">Fairy</option>
+			<option value="fighting">Fighting</option>
+			<option value="fire">Fire</option>
+			<option value="flying">Flying</option>
+			<option value="ghost">Ghost</option>
+			<option value="grass">Grass</option>
+			<option value="ground">Ground</option>
+			<option value="ice">Ice</option>
+			<option value="normal">Normal</option>
+			<option value="poison">Poison</option>
+			<option value="psychic">Psychic</option>
+			<option value="rock">Rock</option>
+			<option value="steel">Steel</option>
+			<option value="water">Water</option>
+		</select>
+
+		<select id="move3_type_options">
+			<option selected value="">--</option>
+			<option value="bug">Bug</option>
+			<option value="dark">Dark</option>
+			<option value="dragon">Dragon</option>
+			<option value="electric">Electric</option>
+			<option value="fairy">Fairy</option>
+			<option value="fighting">Fighting</option>
+			<option value="fire">Fire</option>
+			<option value="flying">Flying</option>
+			<option value="ghost">Ghost</option>
+			<option value="grass">Grass</option>
+			<option value="ground">Ground</option>
+			<option value="ice">Ice</option>
+			<option value="normal">Normal</option>
+			<option value="poison">Poison</option>
+			<option value="psychic">Psychic</option>
+			<option value="rock">Rock</option>
+			<option value="steel">Steel</option>
+			<option value="water">Water</option>
+		</select>
+
+		<select id="roles_options">
+			<option selected value="">--</option>
+			<option value="pstrike">Physical Strike</option>
+			<option value="sstrike">Special Strike</option>
+			<option value="support">Support</option>
+			<option value="tech">Tech</option>
+		</select>
+
+		<input type="checkbox" id="egg_icon" name="egg_icon">
+		<label for="egg_icon">Egg</label>
+
+		<input type="checkbox" id="shiny_icon" name="shiny_icon">
+		<label for="shiny_icon">Shiny</label>
+	</div>
+
+	<div id="pairs">
+		<div class="pair rare-gold-ex type-electric">
+			<div class="bg-pair"></div>
+			<div class="trainer"><img src="scottie.png" alt=""></div>
+			<div class="border-pair"></div>
+			<div class="pokemon">
+				<div class="pokemon-bg"></div>
+				<img src="0025.png" alt="">
+				<div class="pokemon-cicle"></div>
+			</div>
+			<div class="stars"></div>
+			<div><img src="types/TYPE_ELECTRIC1.png" alt=""></div>
+		</div>
+	</div>
+
+	<button id="screenshot">Create</button><br>
+
+	<script src="https://pomasters.github.io/SyncPairsTracker/js/lib/html2canvas.min.js"></script>
+	<script src="https://pomasters.github.io/SyncPairEditor/js/dom-to-image.min.js"></script>
+	<!--<script src="script.js"></script>-->
+	<script type="module" src="script2.js"></script>
+</body>
+</html>
