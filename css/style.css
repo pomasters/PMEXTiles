@@ -43,6 +43,26 @@ body {
 	margin: 5px;
 }
 
+#types_options {
+	width: fit-content;
+	display: inline;
+}
+
+#types_options [type=radio] {
+	display: none;
+}
+
+#types_options [type=radio] + img {
+	cursor: pointer;
+	opacity: 0.4;
+	filter: grayscale(0.6);
+}
+
+#types_options [type=radio]:checked + img {
+	opacity: 1;
+	filter: none;
+}
+
 #pairs {
 	display: flex;
 	justify-content: center;
