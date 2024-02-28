@@ -44,8 +44,8 @@
 		<label for="frames_mode">Type frame</label><br>
 
 		<input type="checkbox" id="master_skill" name="master_skill">
-		<label for="master_skill">Master Skill</label>
-
+		<label for="master_skill">Master Skill</label> |
+		Moves types : 
 		<select id="move1_type_options">
 			<option value="">--</option>
 			<option value="bug">Bug</option>
@@ -111,8 +111,32 @@
 			<option value="steel">Steel</option>
 			<option value="water">Water</option>
 		</select>
+		Roles :
+		<select id="rolesBASE_options">
+			<option selected value="">--</option>
+			<option value="role_strike">Strike</option>
+			<option value="role_support">Support</option>
+			<option value="role_tech">Tech</option>
+			<option value="role_sprint">Sprint</option>
+			<option value="role_field">Field</option>
+			<option disabled value="">Colored ↓</option>
+			<option value="role_strike2">Strike</option>
+			<option value="role_support2">Support</option>
+			<option value="role_tech2">Tech</option>
+			<option value="role_sprint2">Sprint</option>
+			<option value="role_field2">Field</option>
+		</select>
 
-		<select id="roles_options">
+		<select id="rolesEX_options">
+			<option selected value="">--</option>
+			<option value="role_ex_strike">Strike</option>
+			<option value="role_ex_support">Support</option>
+			<option value="role_ex_tech">Tech</option>
+			<option value="role_ex_sprint">Sprint</option>
+			<option value="role_ex_field">Field</option>
+		</select><br>
+		Eggs :
+		<select id="rolesEGG_options">
 			<option selected value="">--</option>
 			<option value="pstrike">Physical Strike</option>
 			<option value="sstrike">Special Strike</option>

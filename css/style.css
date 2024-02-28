@@ -63,6 +63,21 @@ body {
 	filter: none;
 }
 
+.roles {
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 47.25px;
+    left: 0;
+    width: 22.95px !important;
+    height: auto !important;
+    margin: 0;
+}
+
+.roles img {
+	width: 100%;
+}
+
 #pairs {
 	display: flex;
 	justify-content: center;
