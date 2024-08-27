@@ -43,8 +43,14 @@
 		<input type="checkbox" id="frames_mode" name="frames_mode" checked>
 		<label for="frames_mode">Type frame</label><br>
 
-		<input type="checkbox" id="master_skill" name="master_skill">
-		<label for="master_skill">Master Skill</label> |
+		Skills :
+		<input type="radio" id="base_skill" name="passive_skill" checked>
+		<label for="base_skill">Base</label>
+		<input type="radio" id="master_skill" name="passive_skill">
+		<label for="master_skill">Master</label>
+		<input type="radio" id="arcsuit_skill" name="passive_skill">
+		<label for="arcsuit_skill">Arc Suit</label> |
+
 		Moves types : 
 		<select id="move1_type_options">
 			<option value="">--</option>
@@ -119,6 +125,7 @@
 			<option value="role_tech">Tech</option>
 			<option value="role_sprint">Sprint</option>
 			<option value="role_field">Field</option>
+			<option value="role_multi">Multi</option>
 			<option disabled value="">Colored ↓</option>
 			<option value="role_strike2">Strike</option>
 			<option value="role_support2">Support</option>
@@ -134,6 +141,7 @@
 			<option value="role_ex_tech">Tech</option>
 			<option value="role_ex_sprint">Sprint</option>
 			<option value="role_ex_field">Field</option>
+			<option value="role_ex_multi">Multi</option>
 		</select><br>
 		Eggs :
 		<select id="rolesEGG_options">
